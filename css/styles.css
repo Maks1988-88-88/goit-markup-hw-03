@@ -1,5 +1,18 @@
+body {
+    width: 1600px;
+    margin: auto;
+}
+
 .header {
     background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 .visually-hidden {
@@ -31,9 +44,15 @@
     color: #2196F3;
 }
 
+.header-nav {
+    box-sizing: border-box;
+    display: flex;
+}
+
 
 .header-nav-li {
     text-decoration: none;
+    padding: 10px;
 }
 
 .header-nav-link {
@@ -66,6 +85,9 @@
     line-height: 1.142;
     letter-spacing: 0.02em;
     color: #757575;
+
+    padding: 10px;
+
 }
 
 .header-address-link:hover, .header-address-link:focus {
@@ -75,6 +97,16 @@
 
 .order {
     background: #2F303A;
+    width: 1600px;
+    min-height: 600px;
+    display: flex;
+}
+
+.order-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 452px;
 }
 
 .order-name {
@@ -100,6 +132,17 @@
     color: #FFFFFF;
 }
 
+.advantage-block {
+    width: 1600px;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.advantage-block-section {
+    width: 270px;
+}
 
 .advantage {
     font-family: 'Roboto', sans-serif;
@@ -131,6 +174,20 @@
     color: #212121;
 }
 
+.our-work-images {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.our-work-img {
+    width: 370px;
+    height: 294px;
+    padding: 10px;
+}
+
+
 .team {
     background: #F5F4FA;
 }
@@ -157,8 +214,17 @@
     color: #757575;
 }
 
+.teams-position {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .footer {
     background: #2F303A;
+    min-height: 252px;
+    display: flex;
+    align-items: center;
 }
 
 .footer-logo {
@@ -173,6 +239,7 @@
 
 .footer-logo > span {
     color: #2196F3;
+
 }
 
 
@@ -185,24 +252,32 @@
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
 }
 
 .footer-address a[target] {
     color: #FFFFFF;
 }
 
-
-.our-work-image {
-    width: 370px;
-    height: 297px;
+.footer-position {
+    margin-left: 215px;
 }
 
 .our-team-image {
     width: 270px;
     height: 260px;
+
 }
 
 /*Портфолио*/
+.portfolio-maine {
+    background: #E5E5E5;
+}
+
+.portfolio-btn-position {
+    display: flex;
+    justify-content: center;
+}
 
 
 .portfolio-nav {
@@ -213,6 +288,9 @@
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin: 94px 8px 50px 0;
+    background: #F5F4FA;
 
     color: #212121;
 }

@@ -14,15 +14,15 @@
 <body>
 <header class="header">
     <a href="#" aria-label="логотип сайта" class="header-logo"><span>Web</span>Studio</a>
-    <nav class="header-nav">
-        <ul>
-            <li class="header-nav-li"><a href="" class="current-link header-nav-link">Студия</a></li>
+    <nav>
+        <ul class="header-nav">
+            <li class="header-nav-li"><a href="index.html" class="current-link header-nav-link">Студия</a></li>
             <li class="header-nav-li"><a href="portfolio.html" class="header-nav-link">Портфолио</a></li>
             <li class="header-nav-li"><a href="" class="header-nav-link">Контакты</a></li>
         </ul>
     </nav>
     <address>
-        <ul>
+        <ul class="header-nav">
             <li>
                 <a href="tel:+380961111111" class="header-address-link">+38 096 111 11 11</a>
             </li>
@@ -34,30 +34,32 @@
 </header>
 <main>
     <section class="order">
+        <div class="order-content">
         <h1 class="order-name">
             Эффективные решения для вашего бизнеса
         </h1>
         <button class="order-btn">Заказать услугу</button>
+        </div>
     </section>
     <section>
         <h2 class="visually-hidden">Наши преимущества</h2>
-        <ul>
-            <li>
+        <ul class="advantage-block">
+            <li class="advantage-block-section">
                 <h3 class="advantage">Внимание к деталям</h3>
                 <p class="advantage-about">Идейные соображения, а также начало повседневной работы по формированию
                     позиции.</p>
             </li>
-            <li>
+            <li class="advantage-block-section">
                 <h3 class="advantage">Пунктуальность</h3>
                 <p class="advantage-about">Задача организации, в особенности же рамки и место обучения кадров влечет за
                     собой.</p>
             </li>
-            <li>
+            <li class="advantage-block-section">
                 <h3 class="advantage">Планирование</h3>
                 <p class="advantage-about">Равным образом консультация с широким активом в значительной степени
                     обуславливает.</p>
             </li>
-            <li>
+            <li class="advantage-block-section">
                 <h3 class="advantage">Современные технологии</h3>
                 <p class="advantage-about">Значимость этих проблем настолько очевидна, что реализация плановых
                     заданий.</p>
@@ -68,17 +70,17 @@
         <h2 class="our-work">
             Чем мы занимаемся
         </h2>
-        <ul>
-            <li><img src="images/what_we_do/what_we_do_1.jpg" alt="Чем мы занимаемся 1" class="ourwork-image"></li>
-            <li><img src="images/what_we_do/what_we_do_2.jpg" alt="Чем мы занимаемся 2" class="ourwork-image"></li>
-            <li><img src="images/what_we_do/what_we_do_3.jpg" alt="Чем мы занимаемся 3" class="ourwork-image"></li>
+        <ul class="our-work-images">
+            <li><img src="images/what_we_do/what_we_do_1.jpg" alt="Чем мы занимаемся 1" class="our-work-img"></li>
+            <li><img src="images/what_we_do/what_we_do_2.jpg" alt="Чем мы занимаемся 2" class="our-work-img"></li>
+            <li><img src="images/what_we_do/what_we_do_3.jpg" alt="Чем мы занимаемся 3" class="our-work-img"></li>
         </ul>
     </section>
     <section class="team">
         <h2 class="our-work">
             Наша команда
         </h2>
-        <ul>
+        <ul class="teams-position">
             <li>
                 <img src="./images/our_team/product_designer.jpg" alt="Product Designer" class="our-team-image">
                 <h3 class="team-name">Игорь Демьяненко</h3>
@@ -100,6 +102,7 @@
     </section>
 </main>
 <footer class="footer">
+    <div class="footer-position">
     <a href="#" aria-label="логотип сайта" class="footer-logo"><span>Web</span>Studio</a>
     <address class="footer-address">
         <ul>
@@ -109,6 +112,7 @@
             <li><a href="tel:+380961111111" class="footer-address">+38 096 111 11 11</a></li>
         </ul>
     </address>
+    </div>
 </footer>
 </body>
 </html>
