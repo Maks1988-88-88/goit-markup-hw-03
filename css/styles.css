@@ -7,12 +7,40 @@ body {
     background: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-ul {
+
+/**,*/
+/**::before,*/
+/**::after {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
 }
 
 .visually-hidden {
@@ -130,6 +158,8 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+
+    cursor: pointer;
 }
 
 .advantage-block {
@@ -305,6 +335,36 @@ ul {
     height: 294px;
 }
 
+.portfolio-card {
+    background: #FFFFFF;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolio-card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.portfolio-card:nth-child(n + 7) {
+    margin-bottom: 94px;
+}
+
+
+.portfolio-img-position {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.portfolio-card a {
+    text-decoration: none;
+}
+
+
 .portfolio-soft {
 
     font-family: 'Roboto', sans-serif;
@@ -313,6 +373,12 @@ ul {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+
+    margin-left: 24px;
+    width: 322px;
+    height: 36px;
+    margin-bottom: 4px;
+    margin-top: 20px;
 }
 
 .portfolio-about {
@@ -322,5 +388,10 @@ ul {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+
+    margin-left: 24px;
+    width: 322px;
+    height: 30px;
+    margin-bottom: 20px;
 
 }
