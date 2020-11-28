@@ -246,7 +246,6 @@ img {
 }
 
 .our-work-images {
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
