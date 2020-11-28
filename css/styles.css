@@ -19,10 +19,10 @@ body {
 
 .section {
     /*padding-top: 94px;*/
-    margin-bottom: 94px;
+    /*margin-bottom: 94px;*/
 
-    /*padding-top: 94px;*/
-    /*padding-bottom: 94px;*/
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /**,*/
@@ -239,6 +239,10 @@ img {
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
+}
+
+.our-work-section {
+    padding-bottom: 94px;
 }
 
 .our-work-images {
