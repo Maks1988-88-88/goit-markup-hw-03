@@ -417,8 +417,9 @@ img {
     background: #FFFFFF;
     margin-right: 30px;
     margin-bottom: 30px;
-    outline: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
 }
+
 
 .portfolio-card:nth-child(3n) {
     margin-right: 0;
@@ -437,7 +438,6 @@ img {
     /*margin-right: auto;*/
 
 }
-
 
 .portfolio-card a {
     text-decoration: none;
@@ -473,4 +473,8 @@ img {
     height: 30px;
     margin-bottom: 20px;
 
+}
+
+.portfolio-maine-content-box {
+   box-sizing: content-box;
 }
