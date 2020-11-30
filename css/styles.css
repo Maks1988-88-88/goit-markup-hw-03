@@ -1,5 +1,12 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -13,7 +20,6 @@ body {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-
 }
 
 
@@ -152,16 +158,17 @@ img {
 
 .order {
     background: #2F303A;
-    width: 1600px;
-    min-height: 600px;
     display: flex;
+    min-height: 600px;
 }
 
 .order-content {
+    width: 696px;
+    padding: 200px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 200px 452px;
+    justify-content: center;
 }
 
 .order-name {
@@ -196,7 +203,7 @@ img {
 }
 
 .advantage-block {
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: row;
     display: flex;
 }
@@ -217,6 +224,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+
+    margin-bottom: 10px;
 }
 
 
@@ -228,6 +237,8 @@ img {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
+    width: 270px;
+
 }
 
 .our-work {
@@ -287,7 +298,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .teams-position {
@@ -309,9 +320,9 @@ img {
 
 .footer {
     background: #2F303A;
-    min-height: 252px;
     display: flex;
     align-items: center;
+    padding: 60px 0;
 }
 
 .footer-logo {
@@ -346,15 +357,16 @@ img {
     color: #FFFFFF;
 }
 
-.footer-position {
-    margin-left: 215px;
-}
 
 .our-team-image {
     width: 270px;
     height: 260px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 
+}
+
+.footer-address-inf:not(:last-child) {
+    padding-bottom: 9px;
 }
 
 /*Портфолио*/
@@ -365,7 +377,7 @@ img {
 .portfolio-btn-position {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 /*.portfolio-maine .container {*/
@@ -381,7 +393,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     padding: 6px 22px;
-    margin: 0 8px 0 0;
     background: #F5F4FA;
     border-radius: 4px;
     color: #212121;
@@ -389,6 +400,7 @@ img {
     cursor: pointer;
 
 }
+
 .portfolio-btn-pos:not(:last-child) {
     margin-right: 8px;
 }
@@ -408,7 +420,7 @@ img {
     background: #FFFFFF;
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #EEEEEE;
+    outline: 1px solid #EEEEEE;
 }
 
 .portfolio-card:nth-child(3n) {
