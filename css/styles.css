@@ -418,6 +418,7 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
+    max-width: 370px;
 }
 
 
@@ -433,7 +434,7 @@ img {
 .portfolio-img-position {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
     /*margin-left: auto;*/
     /*margin-right: auto;*/
 
@@ -475,6 +476,6 @@ img {
 
 }
 
-.portfolio-maine-content-box {
-   box-sizing: content-box;
-}
+/*.portfolio-maine-content-box {*/
+/*   box-sizing: content-box;*/
+/*}*/
