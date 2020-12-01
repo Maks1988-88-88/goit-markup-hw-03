@@ -366,13 +366,13 @@ img {
 }
 
 .footer-address-inf:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 /*Портфолио*/
-.portfolio-maine {
-    background: #E5E5E5;
-}
+/*.portfolio-maine {*/
+/*    background: #E5E5E5;*/
+/*}*/
 
 .portfolio-btn-position {
     display: flex;
